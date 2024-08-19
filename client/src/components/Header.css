@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo-left {
+    height: 50px;
+    margin-right: auto; /* تجعل الصورة على اليسار */
+  }
+  
+  .site-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1; /* تجعل النص في المنتصف */
+  }
+  
+  .logo-right {
+    height: 50px;
+    margin-left: auto; /* تجعل الصورة على اليمين */
+  }
+  body{
+    background-color: #fff;
+  }
+  
